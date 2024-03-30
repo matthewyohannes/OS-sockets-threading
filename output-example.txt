@@ -1,0 +1,22 @@
+CPU 1
+Task scheduling information: A (WCET: 2, Period: 10), B (WCET: 4, Period: 15), C (WCET: 3, Period: 30)
+Task set utilization: 0.57
+Hyperperiod: 30
+Rate Monotonic Algorithm execution for CPU1: 
+Scheduling Diagram for CPU 1: A(2), B(4), C(3), Idle(1), A(2), Idle(3), B(4), Idle(1), A(2), Idle(8)
+
+
+CPU 2
+Task scheduling information: X (WCET: 10, Period: 25), Y (WCET: 5, Period: 10), Z (WCET: 1, Period: 20)
+Task set utilization: 0.95
+Hyperperiod: 100
+Rate Monotonic Algorithm execution for CPU2: 
+Task set schedulability is unknown
+
+
+CPU 3
+Task scheduling information: A (WCET: 1, Period: 5), B (WCET: 5, Period: 20), C (WCET: 1, Period: 10), D (WCET: 1, Period: 5)
+Task set utilization: 0.75
+Hyperperiod: 20
+Rate Monotonic Algorithm execution for CPU3: 
+Scheduling Diagram for CPU 3: A(1), D(1), C(1), B(2), A(1), D(1), B(3), A(1), D(1), C(1), Idle(2), A(1), D(1), Idle(3)
